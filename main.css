@@ -27,3 +27,11 @@
     outline:none ;
     border-radius: 5px;
 }
+.name{
+    margin-top: 100px;
+}
+@media screen and (max-width: 500px) {
+    .name{
+        font-size: 10px;
+    }
+}
