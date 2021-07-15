@@ -14,7 +14,6 @@
 #img{
     width: 150px;
     height: 150px;
-    padding-bottom: 50px;
 }
 #btn{
     width: 150px;
@@ -34,5 +33,8 @@
 @media screen and (max-width: 500px) {
     .name{
         font-size: 10px;
+    }
+    #img{
+        padding-bottom: 50px;
     }
 }
