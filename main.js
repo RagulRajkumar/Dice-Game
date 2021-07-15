@@ -5,7 +5,7 @@ function Rotate(){
     img.setAttribute("src", `${randomNumber}.png`);
 }
 function anim(){
-    setTimeout(Rotate ,1000);
+    setTimeout(Rotate ,300);
     const img = document.getElementById("img") ;
     img.setAttribute("src","loader.gif") ;
 }
